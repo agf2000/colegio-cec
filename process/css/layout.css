@@ -17,6 +17,10 @@
 	width: 270px;
 }
 
+.col3 {
+	width: 450px;
+}
+
 .col_1 {
 	width: 300px;
 	float: left;
@@ -43,7 +47,6 @@
 	float: left;
 }
 
-
 /* index.html */
 
 #page1 {
@@ -62,28 +65,22 @@
 	background: url(../images/line_top1.gif) 0 0 no-repeat;
 }
 
-
 /* index-1.html */
 
 #page2 .cols {
 	width: 243px;
 }
 
-
 /* index-2.html */
 
-
 /* index-3.html */
-
 
 /* index-4.html */
 
 #page5 .cols {
-	width: 243px;
+	width: 283px;
 }
 
-
 /* index-5.html */
-
 
 /* index-6.html */
