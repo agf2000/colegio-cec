@@ -1,0 +1,138 @@
+{
+    "results": [{
+            "id": "1",
+            "abbr": "AC",
+            "text": "Acre"
+        },
+        {
+            "id": "2",
+            "abbr": "AL",
+            "text": "Alagoas"
+        },
+        {
+            "id": "3",
+            "abbr": "AM",
+            "text": "Amazonas"
+        },
+        {
+            "id": "4",
+            "abbr": "AP",
+            "text": "Amapá"
+        },
+        {
+            "id": "5",
+            "abbr": "BA",
+            "text": "Bahia"
+        },
+        {
+            "id": "6",
+            "abbr": "CE",
+            "text": "Ceará"
+        },
+        {
+            "id": "7",
+            "abbr": "DF",
+            "text": "Distrito Federal"
+        },
+        {
+            "id": "8",
+            "abbr": "ES",
+            "text": "Espírito Santo"
+        },
+        {
+            "id": "9",
+            "abbr": "GO",
+            "text": "Goiás"
+        },
+        {
+            "id": "10",
+            "abbr": "MA",
+            "text": "Maranhão"
+        },
+        {
+            "id": "11",
+            "abbr": "MG",
+            "text": "Minas Gerais"
+        },
+        {
+            "id": "12",
+            "abbr": "MS",
+            "text": "Mato Grosso do Sul"
+        },
+        {
+            "id": "13",
+            "abbr": "MT",
+            "text": "Mato Grosso"
+        },
+        {
+            "id": "14",
+            "abbr": "PA",
+            "text": "Pará"
+        },
+        {
+            "id": "15",
+            "abbr": "PB",
+            "text": "Paraíba"
+        },
+        {
+            "id": "16",
+            "abbr": "PE",
+            "text": "Pernambuco"
+        },
+        {
+            "id": "17",
+            "abbr": "PI",
+            "text": "Piauí"
+        },
+        {
+            "id": "18",
+            "abbr": "PR",
+            "text": "Paraná"
+        },
+        {
+            "id": "19",
+            "abbr": "RJ",
+            "text": "Rio de Janeiro"
+        },
+        {
+            "id": "20",
+            "abbr": "RN",
+            "text": "Rio Grande do Norte"
+        },
+        {
+            "id": "21",
+            "abbr": "RO",
+            "text": "Rondônia"
+        },
+        {
+            "id": "22",
+            "abbr": "RR",
+            "text": "Roraima"
+        },
+        {
+            "id": "23",
+            "abbr": "RS",
+            "text": "Rio Grande do Sul"
+        },
+        {
+            "id": "24",
+            "abbr": "SC",
+            "text": "Santa Catarina"
+        },
+        {
+            "id": "25",
+            "abbr": "SE",
+            "text": "Sergipe"
+        },
+        {
+            "id": "26",
+            "abbr": "SP",
+            "text": "São Paulo"
+        },
+        {
+            "id": "27",
+            "abbr": "TO",
+            "text": "Tocantins"
+        }
+    ]
+}

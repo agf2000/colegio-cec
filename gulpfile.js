@@ -52,6 +52,9 @@ gulp.task('vendors', function () {
     gulp.src('node_modules/select2/dist/js/select2.min.js')
         .pipe(gulp.dest(app + '/lib/select2/js'));
 
+    gulp.src('node_modules/select2/dist/js/select2.full.min.js')
+        .pipe(gulp.dest(app + '/lib/select2/js'));
+
     gulp.src('node_modules/select2/dist/js/i18n/pt-BR.js')
         .pipe(gulp.dest(app + '/lib/select2/i18n'));
 
@@ -212,6 +215,54 @@ gulp.task('vendors', function () {
 
     gulp.src('node_modules/pace-js/pace.min.js')
         .pipe(gulp.dest(app + '/lib/pace-js/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.web.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.core.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.userevents.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.selectable.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.calendar.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.popup.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.datepicker.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.timepicker.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/kendo.datetimepicker.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js'));
+
+    gulp.src('process/lib/kendo/js/cultures/kendo.culture.pt-BR.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js/cultures'));
+
+    gulp.src('process/lib/kendo/js/messages/kendo.messages.pt-BR.min.js')
+        .pipe(gulp.dest(app + '/lib/kendo/js/messages'));
+
+    gulp.src('process/lib/kendo/styles/fonts/**')
+        .pipe(gulp.dest(app + '/lib/kendo/Styles/fonts'));
+
+    gulp.src('process/lib/kendo/styles/kendo.common.min.css')
+        .pipe(gulp.dest(app + '/lib/kendo/styles'));
+
+    gulp.src('process/lib/kendo/styles/kendo.common-bootstrap.min.css')
+        .pipe(gulp.dest(app + '/lib/kendo/styles'));
+
+    gulp.src('process/lib/kendo/styles/kendo.bootstrap.min.css')
+        .pipe(gulp.dest(app + '/lib/kendo/styles'));
+
+    gulp.src('process/lib/kendo/styles/bootstrap/**')
+        .pipe(gulp.dest(app + '/lib/kendo/Styles/Bootstrap'));
 });
 
 gulp.task('imageMin', function () {

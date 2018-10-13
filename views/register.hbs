@@ -1,0 +1,355 @@
+<div class="body1">
+    <div class="main">
+        <!-- header -->
+        <header>
+            <div class="wrapper">
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="/">QUEM SOMOS</a>
+                        </li>
+                        <li>
+                            <a href="/">Matrícula</a>
+                        </li>
+                        <li class="end">
+                            <a href="/contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="wrapper">
+                <h1><a href="/" id="logo">Colégio CEC</a></h1>
+            </div>
+            <div id="slogan"> O melhor Colégio
+                <span>pertinho de sua casa!</span>
+            </div>
+        </header>
+        <!-- / header -->
+    </div>
+</div>
+<div class="body2">
+    <div class="main">
+        <!-- content -->
+        <section id="content">
+            <div class="box1">
+                <div class="wrapper">
+                    <h2>Requerimento de Matrícula</h2>
+                    <form id="ContactForm" action="#">
+                        <article class="col1">
+                            <div class="pad_left1">
+                                <div>
+                                    <h3>Dados do Aluno</h3>
+
+                                    <div class="wrapper">
+                                        <input name="chkBoxStudent" type="radio" value="veteran"> Veterano
+                                        <input name="chkBoxStudent" type="radio" checked value="new"> Novato
+                                    </div>
+
+                                    <div class="wrapper"> <strong>Aluno(a):</strong>
+                                        <div class="bg">
+                                            <input id="inputStudentName" type="text" class="input" placeholder="Nome completo do aluno(a)">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Estado:</strong>
+                                        <div>
+                                            <select id="sel2StudentStates" class="input">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Cidade:</strong>
+                                        <div>
+                                            <select id="sel2StudentCities" class="input" disabled>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Endereço:</strong>
+                                        <div class="bg">
+                                            <input id="inputStudentAddress" type="text" class="input" placeholder="Endereço completo do aluno">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Bairro:</strong>
+                                        <div class="bg">
+                                            <input id="inputStudentDistrict" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Nome do Cartório:</strong>
+                                        <div class="bg">
+                                            <input id="inputBirthRegisterPlaceName" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Certidão de Nascimento Termo:</strong>
+                                        <div class="bg">
+                                            <input id="inputBirthRegisterTerm" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Ensino:</strong>
+                                        <div class="bg">
+                                            <input id="inputCurriculum" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Email:</strong>
+                                        <div class="bg">
+                                            <input id="inputStudentEmail" type="email" class="input">
+                                        </div>
+                                    </div>
+                                    <h3>Dados do Pai</h3>
+                                    <input id="chkBoxSameAddress1" type="checkbox"><label style="font-size: 14px;">Mesmo
+                                        endereço do aluno</label>
+                                    <div class="wrapper"> <strong>Nome do Pai:</strong>
+                                        <div class="bg">
+                                            <input id="inputFatherName" type="text" class="input" placeholder="Nome completo do pai">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Profissão:</strong>
+                                        <div class="bg">
+                                            <input id="inputFatherProfission" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Estado:</strong>
+                                        <div>
+                                            <select id="sel2FatherStates" class="input">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Cidade:</strong>
+                                        <div>
+                                            <select id="sel2FatherCities" class="input" disabled>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Endereço:</strong>
+                                        <div class="bg">
+                                            <input id="inputFatherAddress" type="text" class="input" placeholder="Endereço completo do pai">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Bairro:</strong>
+                                        <div class="bg">
+                                            <input id="inputFatherDistrict" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Email:</strong>
+                                        <div class="bg">
+                                            <input id="inputFatherEmail" type="email" class="input">
+                                        </div>
+                                    </div>
+                                    <h3>Dados da Mãe</h3>
+                                    <input id="chkBoxSameAddress2" type="checkbox"><label style="font-size: 14px;">Mesmo
+                                        endereço do pai</label>
+                                    <div class="wrapper"> <strong>Nome da Mãe:</strong>
+                                        <div class="bg">
+                                            <input id="inputMotherName" type="text" class="input" placeholder="Nome completo da Mãe">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Profissão:</strong>
+                                        <div class="bg">
+                                            <input id="inputMotherProfission" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Estado:</strong>
+                                        <div>
+                                            <select id="sel2MotherStates" class="input">
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Cidade:</strong>
+                                        <div>
+                                            <select id="sel2MotherCities" class="input" disabled>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Endereço:</strong>
+                                        <div class="bg">
+                                            <input id="inputMotherAddress" type="text" class="input" placeholder="Endereço completo da Mãe">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Bairro:</strong>
+                                        <div class="bg">
+                                            <input id="inputMotherDistrict" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="wrapper"> <strong>Email:</strong>
+                                        <div class="bg">
+                                            <input id="inputMotherEmail" type="email" class="input">
+                                        </div>
+                                    </div>
+                                    <button id="btnSend" href="#" class="button"><span><span>Enviar</span></span></button>
+                                    <button id="btnClear" href="#" class="button"><span><span>Limpar</span></span></button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col2 pad_left2">
+                            <div class="pad_left1">
+                                <div class="wrapper"> <strong>Matrícula:</strong>
+                                    <div class="bg">
+                                        <input id="inputStudentCode" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Turma:</strong>
+                                    <div class="bg">
+                                        <input id="inputStudentGroup" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Turno:</strong>
+                                    <div class="bg">
+                                        <input id="inputStudentShift" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>CEP:</strong>
+                                    <div>
+                                        <input id="inputStudentZipCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Residêncial:</strong>
+                                    <div>
+                                        <input id="inputStudentPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Celular:</strong>
+                                    <div>
+                                        <input id="inputStudentCelPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Data de Nascimento:</strong>
+                                    <div>
+                                        <input id="kdpStudentBDate" type="date">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Naturalidade:</strong>
+                                    <div class="bg">
+                                        <input id="inputBirthTown" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Certidão de Nascimento Folha:</strong>
+                                    <div class="bg">
+                                        <input id="inputBirthRegisterSheet" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Certidão de Nascimento Livro:</strong>
+                                    <div class="bg">
+                                        <input id="inputBirthRegisterBook" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Data do Registro:</strong>
+                                    <div>
+                                        <input id="kdpStudentRegister" type="date">
+                                    </div>
+                                </div>
+                                <div class="wrapper"></div><br />
+                                <div class="wrapper"> <strong>CEP:</strong>
+                                    <div>
+                                        <input id="inputFatherZipCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>RG:</strong>
+                                    <div class="bg">
+                                        <input id="inputFatherIdentity" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>CPF:</strong>
+                                    <div>
+                                        <input id="inputFatherSSN" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Data de Nascimento:</strong>
+                                    <div>
+                                        <input id="kdpFatherBDate" type="date">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Residêncial:</strong>
+                                    <div>
+                                        <input id="inputFatherPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Comercial:</strong>
+                                    <div>
+                                        <input id="inputFatherComPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Celular:</strong>
+                                    <div>
+                                        <input id="inputFatherCelPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"></div>
+                                <div class="wrapper">&nbsp;</div>
+                                <div class="wrapper"> <strong>CEP:</strong>
+                                    <div>
+                                        <input id="inputMotherZipCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>RG:</strong>
+                                    <div class="bg">
+                                        <input id="inputMotherIdentity" type="text" class="input">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>CPF:</strong>
+                                    <div>
+                                        <input id="inputMotherSSN" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Data de Nascimento:</strong>
+                                    <div>
+                                        <input id="kdpMotherBDate" type="date">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Residêncial:</strong>
+                                    <div>
+                                        <input id="inputMotherPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Comercial:</strong>
+                                    <div>
+                                        <input id="inputMotherComPhone" type="text">
+                                    </div>
+                                </div>
+                                <div class="wrapper"> <strong>Telefone Celular:</strong>
+                                    <div>
+                                        <input id="inputMotherCelPhone" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </form>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="pad_top1">
+                    <h6>&nbsp; <i>Parceiros:</i></h6>
+                    <article class="cols marg_right2">
+                        <figure>
+                            <a href="#">
+                                <img src="images/rildoseg_logo.png" alt="">
+                            </a>
+                        </figure>
+                    </article>
+                    <article class="cols marg_right2">
+                        <figure>
+                            <a href="#">
+                                <img src="images/granfarma_logo.png" alt="">
+                            </a>
+                        </figure>
+                    </article>
+                    <article class="cols">
+                        <figure>
+                            <a href="#">
+                                <img src="images/ct_logo.png" alt="">
+                            </a>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- content -->
+        <!-- footer -->
+        <footer>
+            {{>footer}}
+        </footer>
+        <!-- / footer -->
+    </div>
+</div>

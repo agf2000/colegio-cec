@@ -11,6 +11,9 @@
     <script type="text/javascript" src="js/cufon-replace.js"></script>
     <script type="text/javascript" src="js/Molengo_400.font.js"></script>
     <script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script>
+    <!-- Kendo UI -->
+    <link href="/lib/kendo/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="/lib/kendo/styles/kendo.bootstrap.min.css" rel="stylesheet" />
     <!--[if lt IE 9]>
 	<script type="text/javascript" src="js/html5.js"></script>
 	<style type="text/css">.bg, .box2{behavior:url("js/PIE.htc");}</style>
@@ -22,13 +25,16 @@
     {{/each}}
 </head>
 
-<body id="page5">
+<body id="page3">
     {{{body}}}
-    <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script> {{#each script}}
+
+    <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+
     <!-- dynamic scripts -->
+    {{#each script}}
     <script src="{{this}}"></script>
-    <!-- /dynamic scripts -->
     {{/each}}
+    <!-- /dynamic scripts -->
 </body>
 
 </html>
