@@ -367,7 +367,7 @@ $(function () {
             if (!data.error) {
                 swal({
                     title: "Sucesso!",
-                    text: "Sua matricula foi enviada.",
+                    text: "Sua matricula foi enviada. Aguarde o contato da nossa secretaria.",
                     type: "success",
                     showCancelButton: false,
                     confirmButtonText: "Ok",
